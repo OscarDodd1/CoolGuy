@@ -273,6 +273,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moving: {x: 0, y: 0}
+  sliding: 0
 --- !u!114 &510834027
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -285,7 +286,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16545240fac058c4bbec95d71bd3fc28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 15
   maxVelocity: {x: 20, y: 100}
   jetSpeed: 1500
   standing: 0

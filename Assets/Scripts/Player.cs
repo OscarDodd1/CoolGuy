@@ -101,6 +101,14 @@ public class Player : MonoBehaviour
         {
             //make sliding anim, and make it so it adds the force only once until you stop sliding and wait a cooldown
             body2D.AddForce(new Vector2(20 * controller.moving.x, 0)); //add foreces
+            animator.SetInteger("AnimState", 4);
+        }
+
+        if (controller.sliding) //sliding, could be used for running too
+        {
+            //make sliding anim, and make it so it adds the force only once until you stop sliding and wait a cooldown
+            body2D.AddForce(new Vector2(20 * controller.moving.x, 0)); //add foreces
+            animator.SetInteger("AnimState", 5);
         }
       
 

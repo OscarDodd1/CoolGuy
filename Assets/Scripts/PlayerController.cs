@@ -6,6 +6,7 @@ public class PlayerController : MonoBehaviour
 {
     
     public Vector2 moving = new Vector2(); // Public variable to store player's movement direction
+    public bool sliding; //Identifies whether the player is standing or not (True/False)
 
     // Start is called before the first frame update
     void Start()
@@ -20,27 +21,44 @@ public class PlayerController : MonoBehaviour
         moving.x = moving.y = 0;
 
         // Check if the right arrow key or 'D' key is pressed
-        if (Input.GetKey("right") || Input.GetKey("d")){
+        if (Input.GetKey("right") || Input.GetKey("d"))
+        {
             // Set the x component of the movement vector to 1 (right direction)
             moving.x = 1;
         }
 
         // Check if the left arrow key or 'A' key is pressed
-        else if (Input.GetKey("left") || Input.GetKey("a")){
+        else if (Input.GetKey("left") || Input.GetKey("a"))
+        {
             // Set the x component of the movement vector to -1 (left direction)
             moving.x = -1;
         }
 
         // Check if the up arrow key, 'W' key, or spacebar is pressed
-        if (Input.GetKey("up") || Input.GetKey("w") || Input.GetKey("space")){
+        if (Input.GetKey("up") || Input.GetKey("w") || Input.GetKey("space"))
+        {
             // Set the y component of the movement vector to 1 (upward direction)
             moving.y = 1;
         }
 
         // Check if the down arrow key or 'S' key is pressed
-        else if (Input.GetKey("down") || Input.GetKey("s") || Input.GetKey(KeyCode.LeftShift)){
+        else if (Input.GetKey("down") || Input.GetKey("s") || Input.GetKey(KeyCode.LeftShift))
+        {
             // Set the y component of the movement vector to -1 (downward direction)
             moving.y = -1;
+        }
+
+        // Check if the down arrow key or 'S' key is pressed
+        else if (Input.GetKey(KeyCode.LeftControl))
+        {
+            // Set the y component of the movement vector to -1 (downward direction)
+            sliding = true;
+        }
+
+        else if (Input.GetKey(KeyCode.LeftControl) == false)
+        {
+            // Set the y component of the movement vector to -1 (downward direction)
+            sliding = false;
         }
     }
 }
