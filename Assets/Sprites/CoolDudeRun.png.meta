@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      CoolDudeRun_0: 1748913820923501957
+      CoolDudeRun_1: 5545443310482408649
+      CoolDudeRun_2: -8986110719497754915
+      CoolDudeRun_3: -3794187712917194260
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

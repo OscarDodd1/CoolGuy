@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      CoolDudeSlide_0: -7123131601979848346
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

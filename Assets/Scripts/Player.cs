@@ -14,11 +14,14 @@ public class Player : MonoBehaviour
     public float standingThreshold = 4f; //Stores a variable to check if the player is standing on the ground
     public float airSpeedMultiplier = .3f; //Multiplies the air speed of the player
 
+    public CapsuleCollider2D NormalCollider;
+    public CapsuleCollider2D SlideCollider;
+
     private Rigidbody2D body2D; //Creates a variable for the RigidBody2D component
     private SpriteRenderer renderer2D; //Creates a variable to render the sprite
     private PlayerController controller; //Creates a variable for the controller (created in a separate script)
     private Animator animator; //Creates a variable to work with the Player animations
-    public CapsuleCollider2D alive; //Creates a variable to check if the player is alive
+    //public CapsuleCollider2D alive; //Creates a variable to check if the player is alive
     private bool isJumping = false;
     private bool canJump = false;
 
@@ -44,36 +47,42 @@ public class Player : MonoBehaviour
         var absVelY = Mathf.Abs(body2D.linearVelocity.y); //Creates a variable to store vertical movement velocity (y)
         var forceY = 0f; //Creates a variable to store force
 
-          
         // Access the player's Y-axis position
         float playerYPosition = transform.position.y;
         if (playerYPosition < -150)  //Check if the player has fallen below a certain position on the screen and return to the Splash Screen if true
         {
             SceneManager.LoadScene("SplashScreen");
         }
+        
+         if (controller.sliding == false) //reset sliding
+        {
+            NormalCollider.enabled = true;
+            SlideCollider.enabled = false;
+        }
+          
     
         if (absVelY <= standingThreshold) //Check if the player is standing on the ground or not
         {
-            
+
             standing = true;
 
-            if (controller.moving.y > 0 && !isJumping && canJump)  // Check if the player is moving upwards and allow jumping
+            if (controller.moving.y > 0 && !isJumping && canJump && controller.sliding == false)  // Check if the player is moving upwards and allow jumping
             {
                 //audioData.Play(0);
                 isJumping = true;
                 canJump = false; //Prevent multiple jumps until landing.
-                
+
                 forceY = jetSpeed * controller.moving.y;
                 animator.SetInteger("AnimState", 2);
-                
 
-                
+
+
             }
             else if (absVelY == 0 && !standing) //Check if the player is not moving vertically and set the animation state accordingly
             {
-               animator.SetInteger("AnimState", 2);
+                animator.SetInteger("AnimState", 2);
             }
-            
+
         }
         else
         {
@@ -83,7 +92,7 @@ public class Player : MonoBehaviour
 
         var forceX = 0f;
 
-        if (controller.moving.x != 0) //Check if the player is moving horizontally
+        if (controller.moving.x != 0 && controller.sliding == false) //Check if the player is moving horizontally
         {
             if (absVelX < maxVelocity.x) //Check if the player's horizontal velocity is within limits and adjust force accordingly
             {
@@ -97,9 +106,8 @@ public class Player : MonoBehaviour
             animator.SetInteger("AnimState", 1); //Set the animation state for horizontal movement
         }
 
-        if (controller.moving.x != 0 && controller.moving.y < 0) //sliding, could be used for running too
+        if (controller.moving.x != 0 && controller.moving.y < 0 && controller.sliding == false) //running
         {
-            //make sliding anim, and make it so it adds the force only once until you stop sliding and wait a cooldown
             body2D.AddForce(new Vector2(20 * controller.moving.x, 0)); //add foreces
             animator.SetInteger("AnimState", 4);
         }
@@ -107,6 +115,8 @@ public class Player : MonoBehaviour
         if (controller.sliding) //sliding, could be used for running too
         {
             //make sliding anim, and make it so it adds the force only once until you stop sliding and wait a cooldown
+            SlideCollider.enabled = true;
+            NormalCollider.enabled = false;
             body2D.AddForce(new Vector2(20 * controller.moving.x, 0)); //add foreces
             animator.SetInteger("AnimState", 5);
         }
