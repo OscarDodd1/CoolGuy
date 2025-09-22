@@ -109,7 +109,7 @@ public class Player : MonoBehaviour
 
         if (controller.moving.x != 0 && controller.moving.y < 0 && controller.sliding == false) //running
         {
-            body2D.AddForce(new Vector2(10 * controller.moving.x, 0)); //add foreces
+            body2D.AddForce(new Vector2(5 * controller.moving.x, 0)); //add foreces
             animator.SetInteger("AnimState", 4);
         }
 
