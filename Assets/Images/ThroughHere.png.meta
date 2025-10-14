@@ -1,0 +1,455 @@
+fileFormatVersion: 2
+guid: d4154515c8798974c9d54dad389e4f26
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7469216098094081334
+    second: ThroughHere_0
+  - first:
+      213: 5738926881445352748
+    second: ThroughHere_1
+  - first:
+      213: -1070006632760684409
+    second: ThroughHere_2
+  - first:
+      213: 8426856284540841358
+    second: ThroughHere_3
+  - first:
+      213: 6356927478909913179
+    second: ThroughHere_4
+  - first:
+      213: -203574754010676883
+    second: ThroughHere_5
+  - first:
+      213: 5845878513524037020
+    second: ThroughHere_6
+  - first:
+      213: 1802104130758726779
+    second: ThroughHere_7
+  - first:
+      213: -1907044974731598045
+    second: ThroughHere_8
+  - first:
+      213: -7007589561282047274
+    second: ThroughHere_9
+  - first:
+      213: 8751602987660244803
+    second: ThroughHere_10
+  - first:
+      213: -8036092144931106277
+    second: ThroughHere_11
+  - first:
+      213: 9068939724616787708
+    second: ThroughHere_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ThroughHere_0
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 2559
+        width: 386
+        height: 738
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 635e685b77cf7a760800000000000000
+      internalID: 7469216098094081334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThroughHere_1
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 2591
+        width: 386
+        height: 706
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c259d70b793c4af40800000000000000
+      internalID: 5738926881445352748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThroughHere_2
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 2527
+        width: 354
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 780dcfaf2a29621f0800000000000000
+      internalID: -1070006632760684409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThroughHere_3
+      rect:
+        serializedVersion: 2
+        x: 2207
+        y: 2623
+        width: 258
+        height: 354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8d2355b42532f470800000000000000
+      internalID: 8426856284540841358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThroughHere_4
+      rect:
+        serializedVersion: 2
+        x: 2623
+        y: 2559
+        width: 386
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5848539cd7583850800000000000000
+      internalID: 6356927478909913179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThroughHere_5
+      rect:
+        serializedVersion: 2
+        x: 3071
+        y: 2271
+        width: 226
+        height: 738
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d61c4fdf6d1cc2df0800000000000000
+      internalID: -203574754010676883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThroughHere_6
+      rect:
+        serializedVersion: 2
+        x: 3423
+        y: 2623
+        width: 418
+        height: 514
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9550b6098bb02150800000000000000
+      internalID: 5845878513524037020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThroughHere_7
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 1695
+        width: 514
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b745322b82c520910800000000000000
+      internalID: 1802104130758726779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThroughHere_8
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 1695
+        width: 450
+        height: 418
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 327ed6e03b0d885e0800000000000000
+      internalID: -1907044974731598045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThroughHere_9
+      rect:
+        serializedVersion: 2
+        x: 2143
+        y: 1727
+        width: 322
+        height: 354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d25c0cfb6a00ce90800000000000000
+      internalID: -7007589561282047274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThroughHere_10
+      rect:
+        serializedVersion: 2
+        x: 2559
+        y: 1759
+        width: 322
+        height: 354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3477cbe9c80f37970800000000000000
+      internalID: 8751602987660244803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThroughHere_11
+      rect:
+        serializedVersion: 2
+        x: 1951
+        y: 831
+        width: 1154
+        height: 674
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b12131f65c01a7090800000000000000
+      internalID: -8036092144931106277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThroughHere_12
+      rect:
+        serializedVersion: 2
+        x: 2879
+        y: 639
+        width: 386
+        height: 418
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf6663751a85bdd70800000000000000
+      internalID: 9068939724616787708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ThroughHere_0: 7469216098094081334
+      ThroughHere_1: 5738926881445352748
+      ThroughHere_10: 8751602987660244803
+      ThroughHere_11: -8036092144931106277
+      ThroughHere_12: 9068939724616787708
+      ThroughHere_2: -1070006632760684409
+      ThroughHere_3: 8426856284540841358
+      ThroughHere_4: 6356927478909913179
+      ThroughHere_5: -203574754010676883
+      ThroughHere_6: 5845878513524037020
+      ThroughHere_7: 1802104130758726779
+      ThroughHere_8: -1907044974731598045
+      ThroughHere_9: -7007589561282047274
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
