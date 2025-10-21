@@ -1,0 +1,1157 @@
+fileFormatVersion: 2
+guid: a93548c9b297e7d4287c4f63df3dbce7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4004862940541907909
+    second: StarSprite_0
+  - first:
+      213: -7197084825563130896
+    second: StarSprite_1
+  - first:
+      213: -168697679319063233
+    second: StarSprite_2
+  - first:
+      213: 6319920484777352149
+    second: StarSprite_3
+  - first:
+      213: 6441380000757947444
+    second: StarSprite_4
+  - first:
+      213: -1950378987742814825
+    second: StarSprite_5
+  - first:
+      213: 3998998256435855712
+    second: StarSprite_6
+  - first:
+      213: 3691669300348108560
+    second: StarSprite_7
+  - first:
+      213: 3239586321450639103
+    second: StarSprite_8
+  - first:
+      213: -7086227507262398969
+    second: StarSprite_9
+  - first:
+      213: 581786868334214296
+    second: StarSprite_10
+  - first:
+      213: 4925822523467381776
+    second: StarSprite_11
+  - first:
+      213: 4216832976561975755
+    second: StarSprite_12
+  - first:
+      213: 2629759828260081391
+    second: StarSprite_13
+  - first:
+      213: -63255623855320816
+    second: StarSprite_14
+  - first:
+      213: -1758386107262806776
+    second: StarSprite_15
+  - first:
+      213: 2073754299211114850
+    second: StarSprite_16
+  - first:
+      213: -1066218423003193372
+    second: StarSprite_17
+  - first:
+      213: -263526243521957300
+    second: StarSprite_18
+  - first:
+      213: -2450946037503049326
+    second: StarSprite_19
+  - first:
+      213: -8433608823177217730
+    second: StarSprite_20
+  - first:
+      213: -5274210566050610875
+    second: StarSprite_21
+  - first:
+      213: -4008861702517958450
+    second: StarSprite_22
+  - first:
+      213: 813866062243561634
+    second: StarSprite_23
+  - first:
+      213: 4000312561866864151
+    second: StarSprite_24
+  - first:
+      213: 4570985748270267008
+    second: StarSprite_25
+  - first:
+      213: -1549209778365329138
+    second: StarSprite_26
+  - first:
+      213: -1310366960292412284
+    second: StarSprite_27
+  - first:
+      213: -6919230381712410767
+    second: StarSprite_28
+  - first:
+      213: 6259101776546343246
+    second: StarSprite_29
+  - first:
+      213: 6310375929417287761
+    second: StarSprite_30
+  - first:
+      213: 6447005900804273360
+    second: StarSprite_31
+  - first:
+      213: 3215291467622911475
+    second: StarSprite_32
+  - first:
+      213: -2774577282713684054
+    second: StarSprite_33
+  - first:
+      213: 7245072833989288069
+    second: StarSprite_34
+  - first:
+      213: -7413420798880481575
+    second: StarSprite_35
+  - first:
+      213: 8799403885371230056
+    second: StarSprite_36
+  - first:
+      213: -3920720346146341790
+    second: StarSprite_37
+  - first:
+      213: 5114163453266966524
+    second: StarSprite_38
+  - first:
+      213: 1040123522444803114
+    second: StarSprite_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: StarSprite_0
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 4927
+        width: 354
+        height: 354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3c8fdecf5edb68c0800000000000000
+      internalID: -4004862940541907909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarSprite_1
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 5247
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f394f1ab71de1c90800000000000000
+      internalID: -7197084825563130896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarSprite_2
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 5151
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3521cdba5aa8adf0800000000000000
+      internalID: -168697679319063233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarSprite_3
+      rect:
+        serializedVersion: 2
+        x: 2879
+        y: 5183
+        width: 66
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5db5edf423ed4b750800000000000000
+      internalID: 6319920484777352149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarSprite_4
+      rect:
+        serializedVersion: 2
+        x: 2943
+        y: 4991
+        width: 258
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43c9b789bf0646950800000000000000
+      internalID: 6441380000757947444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarSprite_5
+      rect:
+        serializedVersion: 2
+        x: 3135
+        y: 5247
+        width: 130
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79d143ae4acdee4e0800000000000000
+      internalID: -1950378987742814825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarSprite_6
+      rect:
+        serializedVersion: 2
+        x: 4959
+        y: 5183
+        width: 66
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06104440abb4f7730800000000000000
+      internalID: 3998998256435855712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarSprite_7
+      rect:
+        serializedVersion: 2
+        x: 4959
+        y: 4927
+        width: 354
+        height: 354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01fb67b5ba17b3330800000000000000
+      internalID: 3691669300348108560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarSprite_8
+      rect:
+        serializedVersion: 2
+        x: 5215
+        y: 5215
+        width: 130
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffe9745689255fc20800000000000000
+      internalID: 3239586321450639103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarSprite_9
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 4959
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70ed50860a9a8ad90800000000000000
+      internalID: -7086227507262398969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarSprite_10
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 4863
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89c3c06031ce21800800000000000000
+      internalID: 581786868334214296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarSprite_11
+      rect:
+        serializedVersion: 2
+        x: 2879
+        y: 4927
+        width: 130
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01c34e9ac790c5440800000000000000
+      internalID: 4925822523467381776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarSprite_12
+      rect:
+        serializedVersion: 2
+        x: 3199
+        y: 4927
+        width: 66
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc1312d1043358a30800000000000000
+      internalID: 4216832976561975755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarSprite_13
+      rect:
+        serializedVersion: 2
+        x: 4927
+        y: 4927
+        width: 130
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feec80871a8ce7420800000000000000
+      internalID: 2629759828260081391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarSprite_14
+      rect:
+        serializedVersion: 2
+        x: 5247
+        y: 4895
+        width: 66
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 011de0268554f1ff0800000000000000
+      internalID: -63255623855320816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarSprite_15
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 3231
+        width: 130
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8055e9ad625f897e0800000000000000
+      internalID: -1758386107262806776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarSprite_16
+      rect:
+        serializedVersion: 2
+        x: 2911
+        y: 2879
+        width: 354
+        height: 354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 269eae34c8477cc10800000000000000
+      internalID: 2073754299211114850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarSprite_17
+      rect:
+        serializedVersion: 2
+        x: 3103
+        y: 3199
+        width: 130
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4efdaeb4ef70431f0800000000000000
+      internalID: -1066218423003193372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarSprite_18
+      rect:
+        serializedVersion: 2
+        x: 5055
+        y: 3231
+        width: 130
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4271e91744c75cf0800000000000000
+      internalID: -263526243521957300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarSprite_19
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 3071
+        width: 34
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 291caf6809d7cfdd0800000000000000
+      internalID: -2450946037503049326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarSprite_20
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 2943
+        width: 258
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e39fbef557dc5fa80800000000000000
+      internalID: -8433608823177217730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarSprite_21
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 2943
+        width: 34
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54101f32f6d3ec6b0800000000000000
+      internalID: -5274210566050610875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarSprite_22
+      rect:
+        serializedVersion: 2
+        x: 2879
+        y: 3071
+        width: 66
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec8dfbb7589ad58c0800000000000000
+      internalID: -4008861702517958450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarSprite_23
+      rect:
+        serializedVersion: 2
+        x: 4927
+        y: 3007
+        width: 34
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a006ce1fde6b4b00800000000000000
+      internalID: 813866062243561634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarSprite_24
+      rect:
+        serializedVersion: 2
+        x: 4991
+        y: 2943
+        width: 258
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7167b989417f38730800000000000000
+      internalID: 4000312561866864151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarSprite_25
+      rect:
+        serializedVersion: 2
+        x: 5279
+        y: 3007
+        width: 34
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08ab507e1576f6f30800000000000000
+      internalID: 4570985748270267008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarSprite_26
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 2879
+        width: 130
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0119f52ae9108ae0800000000000000
+      internalID: -1549209778365329138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarSprite_27
+      rect:
+        serializedVersion: 2
+        x: 2943
+        y: 2847
+        width: 130
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 484cc563134a0dde0800000000000000
+      internalID: -1310366960292412284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarSprite_28
+      rect:
+        serializedVersion: 2
+        x: 3231
+        y: 2911
+        width: 66
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 177f0f2a0a4f9ff90800000000000000
+      internalID: -6919230381712410767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarSprite_29
+      rect:
+        serializedVersion: 2
+        x: 5055
+        y: 2879
+        width: 130
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e49af0457ebccd650800000000000000
+      internalID: 6259101776546343246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarSprite_30
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 831
+        width: 354
+        height: 354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 158c7185975f29750800000000000000
+      internalID: 6310375929417287761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarSprite_31
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 1183
+        width: 130
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d4394685bd587950800000000000000
+      internalID: 6447005900804273360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarSprite_32
+      rect:
+        serializedVersion: 2
+        x: 2943
+        y: 1183
+        width: 130
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fd0201fd820f9c20800000000000000
+      internalID: 3215291467622911475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarSprite_33
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 959
+        width: 66
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa77bf569a8be79d0800000000000000
+      internalID: -2774577282713684054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarSprite_34
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 927
+        width: 66
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 580a3c14b5bab8460800000000000000
+      internalID: 7245072833989288069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarSprite_35
+      rect:
+        serializedVersion: 2
+        x: 2879
+        y: 895
+        width: 34
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9de7c38bf0d3e1990800000000000000
+      internalID: -7413420798880481575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarSprite_36
+      rect:
+        serializedVersion: 2
+        x: 2943
+        y: 895
+        width: 258
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8678eb66633cd1a70800000000000000
+      internalID: 8799403885371230056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarSprite_37
+      rect:
+        serializedVersion: 2
+        x: 3231
+        y: 1023
+        width: 34
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26cfc483e9dc699c0800000000000000
+      internalID: -3920720346146341790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarSprite_38
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 767
+        width: 130
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf73343909829f640800000000000000
+      internalID: 5114163453266966524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarSprite_39
+      rect:
+        serializedVersion: 2
+        x: 3071
+        y: 831
+        width: 130
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2cb9d535d24f6e00800000000000000
+      internalID: 1040123522444803114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      StarSprite_0: -4004862940541907909
+      StarSprite_1: -7197084825563130896
+      StarSprite_10: 581786868334214296
+      StarSprite_11: 4925822523467381776
+      StarSprite_12: 4216832976561975755
+      StarSprite_13: 2629759828260081391
+      StarSprite_14: -63255623855320816
+      StarSprite_15: -1758386107262806776
+      StarSprite_16: 2073754299211114850
+      StarSprite_17: -1066218423003193372
+      StarSprite_18: -263526243521957300
+      StarSprite_19: -2450946037503049326
+      StarSprite_2: -168697679319063233
+      StarSprite_20: -8433608823177217730
+      StarSprite_21: -5274210566050610875
+      StarSprite_22: -4008861702517958450
+      StarSprite_23: 813866062243561634
+      StarSprite_24: 4000312561866864151
+      StarSprite_25: 4570985748270267008
+      StarSprite_26: -1549209778365329138
+      StarSprite_27: -1310366960292412284
+      StarSprite_28: -6919230381712410767
+      StarSprite_29: 6259101776546343246
+      StarSprite_3: 6319920484777352149
+      StarSprite_30: 6310375929417287761
+      StarSprite_31: 6447005900804273360
+      StarSprite_32: 3215291467622911475
+      StarSprite_33: -2774577282713684054
+      StarSprite_34: 7245072833989288069
+      StarSprite_35: -7413420798880481575
+      StarSprite_36: 8799403885371230056
+      StarSprite_37: -3920720346146341790
+      StarSprite_38: 5114163453266966524
+      StarSprite_39: 1040123522444803114
+      StarSprite_4: 6441380000757947444
+      StarSprite_5: -1950378987742814825
+      StarSprite_6: 3998998256435855712
+      StarSprite_7: 3691669300348108560
+      StarSprite_8: 3239586321450639103
+      StarSprite_9: -7086227507262398969
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
