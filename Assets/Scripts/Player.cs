@@ -24,7 +24,6 @@ public class Player : MonoBehaviour
     //public CapsuleCollider2D alive; //Creates a variable to check if the player is alive
     private bool isJumping = false;
     private bool canJump = false;
-    private bool canSlide = true;
 
     AudioSource audioData;
     
@@ -55,7 +54,7 @@ public class Player : MonoBehaviour
             SceneManager.LoadScene("SplashScreen");
         }
         
-         if (controller.sliding == false) //reset sliding
+        if (controller.sliding == false) //reset sliding
         {
             NormalCollider.enabled = true;
             SlideCollider.enabled = false;
@@ -109,8 +108,12 @@ public class Player : MonoBehaviour
 
         if (controller.moving.x != 0 && controller.moving.y < 0 && controller.sliding == false) //running
         {
-            body2D.AddForce(new Vector2(5 * controller.moving.x, 0)); //add foreces
+            maxVelocity.x = 45; //add foreces
             animator.SetInteger("AnimState", 4);
+        }
+        else
+        {
+            maxVelocity.x = 25;
         }
 
         if (controller.sliding) //sliding, could be used for running too
