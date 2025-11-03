@@ -97774,6 +97774,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 2590584772953665319, guid: da8b3c269e0da87479e5f4e8324ae646, type: 3}
+      propertyPath: m_Mass
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2590584772953665319, guid: da8b3c269e0da87479e5f4e8324ae646, type: 3}
+      propertyPath: m_GravityScale
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2590584772953665319, guid: da8b3c269e0da87479e5f4e8324ae646, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7278950903594366985, guid: da8b3c269e0da87479e5f4e8324ae646, type: 3}
       propertyPath: maxVelocity.x
       value: 25
