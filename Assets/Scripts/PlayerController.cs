@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -19,8 +20,14 @@ public class PlayerController : MonoBehaviour
         // Reset the movement vector to (0, 0) at the start of each frame
         moving.x = moving.y = 0;
 
+        // return to menu
+        if (Input.GetKey("escape"))
+        {
+            SceneManager.LoadScene("SplashScreen");
+        }
+
         // Check if the right arrow key or 'D' key is pressed
-        if (Input.GetKey("d") && sliding == false)
+        else if (Input.GetKey("d") && sliding == false)
         {
             // Set the x component of the movement vector to 1 (right direction)
             moving.x = 1;

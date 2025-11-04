@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class Explode : MonoBehaviour
@@ -18,10 +19,13 @@ public class Explode : MonoBehaviour
         // Check if the entering GameObject has the "Deadly" tag
 
         if (target.gameObject.CompareTag("Deadly")){
-            
+
             // Disable the CapsuleCollider2D on the Player to prevent further collisions
-            if (playerCollider != null){
+            if (playerCollider != null)
+            {
                 playerCollider.enabled = false;
+
+                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             }
         }
     }
@@ -35,7 +39,7 @@ public class Explode : MonoBehaviour
             // Disable the CapsuleCollider2D on the Player to prevent further collisions
             if (playerCollider != null){
                 playerCollider.enabled = false;
-
+                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             }
         }
     }
