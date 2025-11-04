@@ -20,21 +20,21 @@ public class PlayerController : MonoBehaviour
         moving.x = moving.y = 0;
 
         // Check if the right arrow key or 'D' key is pressed
-        if (Input.GetKey("right") || Input.GetKey("d") && sliding == false)
+        if (Input.GetKey("d") && sliding == false)
         {
             // Set the x component of the movement vector to 1 (right direction)
             moving.x = 1;
         }
 
         // Check if the left arrow key or 'A' key is pressed
-        else if (Input.GetKey("left") || Input.GetKey("a") && sliding == false)
+        else if (Input.GetKey("a") && sliding == false)
         {
             // Set the x component of the movement vector to -1 (left direction)
             moving.x = -1;
         }
 
         // Check if the up arrow key, 'W' key, or spacebar is pressed
-        if (Input.GetKey("up") || Input.GetKey("w") || Input.GetKey("space") && sliding == false)
+        if (Input.GetKey("w") || Input.GetKey("space") && sliding == false)
         {
             // Set the y component of the movement vector to 1 (upward direction)
             moving.y = 1;
@@ -48,13 +48,13 @@ public class PlayerController : MonoBehaviour
         }
 
         // Check if the down arrow key or 'S' key is pressed
-        else if (Input.GetKey("down") || Input.GetKey("s") || Input.GetKey(KeyCode.LeftControl))
+        else if (Input.GetKey("s") || Input.GetKey(KeyCode.LeftControl))
         {
             // Set the y component of the movement vector to -1 (downward direction)
             sliding = true;
         }
 
-        else if (Input.GetKey("down") || Input.GetKey("s") || Input.GetKey(KeyCode.LeftControl) == false)
+        else if (Input.GetKey("s") || Input.GetKey(KeyCode.LeftControl) == false)
         {
             // Set the y component of the movement vector to -1 (downward direction)
             sliding = false;

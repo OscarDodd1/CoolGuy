@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5700761520812828012}
   - component: {fileID: 3918296964258843833}
   - component: {fileID: 1295814206372386737}
+  - component: {fileID: 952527902316751020}
   m_Layer: 0
   m_Name: Glass
   m_TagString: Untagged
@@ -122,7 +123,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -164,7 +165,19 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 7
+--- !u!114 &952527902316751020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2264693517240945741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2782d7beaa0e44903b39d260fab5f8e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UnlockChildrenOnTrigger
 --- !u!1 &2442006232691772336
 GameObject:
   m_ObjectHideFlags: 0
@@ -177,6 +190,7 @@ GameObject:
   - component: {fileID: 5140435577322033725}
   - component: {fileID: 981070950343686424}
   - component: {fileID: 2478418218148965623}
+  - component: {fileID: 5926557127568391077}
   m_Layer: 0
   m_Name: Glass
   m_TagString: Untagged
@@ -287,7 +301,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -329,7 +343,19 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 7
+--- !u!114 &5926557127568391077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2442006232691772336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2782d7beaa0e44903b39d260fab5f8e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UnlockChildrenOnTrigger
 --- !u!1 &2775393313738782735
 GameObject:
   m_ObjectHideFlags: 0
@@ -355,7 +381,7 @@ Transform:
   m_GameObject: {fileID: 2775393313738782735}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 104.08, y: -1.59, z: 0}
+  m_LocalPosition: {x: 104.08, y: -1.5899999, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -376,6 +402,7 @@ GameObject:
   - component: {fileID: 7305067674785445415}
   - component: {fileID: 8074616746371249856}
   - component: {fileID: 3738285195166622081}
+  - component: {fileID: 4709833586259142648}
   m_Layer: 0
   m_Name: Glass
   m_TagString: Untagged
@@ -486,7 +513,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -528,4 +555,16 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 7
+--- !u!114 &4709833586259142648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5004091465275553421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2782d7beaa0e44903b39d260fab5f8e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UnlockChildrenOnTrigger

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3526650995212516620}
   - component: {fileID: 2465283194808203223}
   - component: {fileID: 3491400895546227330}
+  - component: {fileID: 8373079975042450214}
   m_Layer: 0
   m_Name: Brick
   m_TagString: Ground
@@ -122,7 +123,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -150,7 +151,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 5
@@ -164,7 +165,19 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 7
+--- !u!114 &8373079975042450214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 770474466265257888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2782d7beaa0e44903b39d260fab5f8e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UnlockSelfOnTrigger2D
 --- !u!1 &1696188237648463565
 GameObject:
   m_ObjectHideFlags: 0
@@ -177,6 +190,7 @@ GameObject:
   - component: {fileID: 7996827779432353411}
   - component: {fileID: 4641694978000904386}
   - component: {fileID: 7075606755585588872}
+  - component: {fileID: 810415831105909472}
   m_Layer: 0
   m_Name: Brick
   m_TagString: Ground
@@ -287,7 +301,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -315,7 +329,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 5
@@ -329,7 +343,19 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 7
+--- !u!114 &810415831105909472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1696188237648463565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2782d7beaa0e44903b39d260fab5f8e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UnlockSelfOnTrigger2D
 --- !u!1 &2093984571557952087
 GameObject:
   m_ObjectHideFlags: 0
@@ -342,6 +368,7 @@ GameObject:
   - component: {fileID: 1977087601781741833}
   - component: {fileID: 3161598185054493301}
   - component: {fileID: 9074618591793288418}
+  - component: {fileID: 9005945296975288901}
   m_Layer: 0
   m_Name: Brick
   m_TagString: Ground
@@ -452,7 +479,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -480,7 +507,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 5
@@ -494,7 +521,19 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 7
+--- !u!114 &9005945296975288901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2093984571557952087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2782d7beaa0e44903b39d260fab5f8e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UnlockSelfOnTrigger2D
 --- !u!1 &2235142166319501760
 GameObject:
   m_ObjectHideFlags: 0
@@ -507,6 +546,7 @@ GameObject:
   - component: {fileID: 68461198768397911}
   - component: {fileID: 7526177213501231058}
   - component: {fileID: 5099085089133983286}
+  - component: {fileID: 841269150702074504}
   m_Layer: 0
   m_Name: Brick
   m_TagString: Ground
@@ -617,7 +657,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -645,7 +685,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 5
@@ -659,7 +699,19 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 7
+--- !u!114 &841269150702074504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2235142166319501760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2782d7beaa0e44903b39d260fab5f8e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UnlockSelfOnTrigger2D
 --- !u!1 &2247975731866942413
 GameObject:
   m_ObjectHideFlags: 0
@@ -672,6 +724,7 @@ GameObject:
   - component: {fileID: 7416710207667422048}
   - component: {fileID: 4772180393698011549}
   - component: {fileID: 4575988288020673865}
+  - component: {fileID: 2609071343845949519}
   m_Layer: 0
   m_Name: Brick
   m_TagString: Ground
@@ -782,7 +835,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -810,7 +863,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 5
@@ -824,7 +877,19 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 7
+--- !u!114 &2609071343845949519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2247975731866942413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2782d7beaa0e44903b39d260fab5f8e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UnlockSelfOnTrigger2D
 --- !u!1 &2357490292275693613
 GameObject:
   m_ObjectHideFlags: 0
@@ -837,6 +902,7 @@ GameObject:
   - component: {fileID: 8319219356247401614}
   - component: {fileID: 381985239430955376}
   - component: {fileID: 4920249731241409372}
+  - component: {fileID: 4529956926228564222}
   m_Layer: 0
   m_Name: Brick
   m_TagString: Ground
@@ -947,7 +1013,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -975,7 +1041,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 5
@@ -989,7 +1055,19 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 7
+--- !u!114 &4529956926228564222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2357490292275693613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2782d7beaa0e44903b39d260fab5f8e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UnlockSelfOnTrigger2D
 --- !u!1 &2560550834744206102
 GameObject:
   m_ObjectHideFlags: 0
@@ -1002,6 +1080,7 @@ GameObject:
   - component: {fileID: 185525028910979024}
   - component: {fileID: 2357013474628320710}
   - component: {fileID: 9006904755007335487}
+  - component: {fileID: 7152719895964816460}
   m_Layer: 0
   m_Name: Brick
   m_TagString: Ground
@@ -1112,7 +1191,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -1140,7 +1219,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 5
@@ -1154,7 +1233,19 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 7
+--- !u!114 &7152719895964816460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2560550834744206102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2782d7beaa0e44903b39d260fab5f8e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UnlockSelfOnTrigger2D
 --- !u!1 &2850857034240734279
 GameObject:
   m_ObjectHideFlags: 0
@@ -1167,6 +1258,7 @@ GameObject:
   - component: {fileID: 7517656741595799608}
   - component: {fileID: 6783316620231582513}
   - component: {fileID: 275587546975606667}
+  - component: {fileID: 4066539067494083383}
   m_Layer: 0
   m_Name: Brick
   m_TagString: Ground
@@ -1277,7 +1369,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -1305,7 +1397,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 5
@@ -1319,7 +1411,19 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 7
+--- !u!114 &4066539067494083383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2850857034240734279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2782d7beaa0e44903b39d260fab5f8e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UnlockSelfOnTrigger2D
 --- !u!1 &3369725860610317246
 GameObject:
   m_ObjectHideFlags: 0
@@ -1332,6 +1436,7 @@ GameObject:
   - component: {fileID: 9199005209635088351}
   - component: {fileID: 149366590636283505}
   - component: {fileID: 4918375670246500693}
+  - component: {fileID: 2045011900784887548}
   m_Layer: 0
   m_Name: Brick
   m_TagString: Ground
@@ -1442,7 +1547,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -1470,7 +1575,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 5
@@ -1484,7 +1589,19 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 7
+--- !u!114 &2045011900784887548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3369725860610317246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2782d7beaa0e44903b39d260fab5f8e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UnlockSelfOnTrigger2D
 --- !u!1 &3555165532930038124
 GameObject:
   m_ObjectHideFlags: 0
@@ -1497,6 +1614,7 @@ GameObject:
   - component: {fileID: 6384520371458684853}
   - component: {fileID: 8244877421167849667}
   - component: {fileID: 6571469133191757584}
+  - component: {fileID: 5411463234165133874}
   m_Layer: 0
   m_Name: Brick
   m_TagString: Ground
@@ -1607,7 +1725,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -1635,7 +1753,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 5
@@ -1649,7 +1767,19 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 7
+--- !u!114 &5411463234165133874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3555165532930038124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2782d7beaa0e44903b39d260fab5f8e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UnlockSelfOnTrigger2D
 --- !u!1 &3571780706006107680
 GameObject:
   m_ObjectHideFlags: 0
@@ -1662,6 +1792,7 @@ GameObject:
   - component: {fileID: 8121391307573839341}
   - component: {fileID: 6050429046141391893}
   - component: {fileID: 7406141433525635708}
+  - component: {fileID: 6269828462648874657}
   m_Layer: 0
   m_Name: Brick
   m_TagString: Ground
@@ -1772,7 +1903,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -1800,7 +1931,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 5
@@ -1814,7 +1945,19 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 7
+--- !u!114 &6269828462648874657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3571780706006107680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2782d7beaa0e44903b39d260fab5f8e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UnlockSelfOnTrigger2D
 --- !u!1 &3716503735533282358
 GameObject:
   m_ObjectHideFlags: 0
@@ -1883,6 +2026,7 @@ GameObject:
   - component: {fileID: 7017462765506283815}
   - component: {fileID: 7175389768020782750}
   - component: {fileID: 6812373902884065919}
+  - component: {fileID: 516738074874506783}
   m_Layer: 0
   m_Name: Brick
   m_TagString: Ground
@@ -1993,7 +2137,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -2021,7 +2165,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 5
@@ -2035,7 +2179,19 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 7
+--- !u!114 &516738074874506783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3859796346591222907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2782d7beaa0e44903b39d260fab5f8e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UnlockSelfOnTrigger2D
 --- !u!1 &4002078729993699765
 GameObject:
   m_ObjectHideFlags: 0
@@ -2048,6 +2204,7 @@ GameObject:
   - component: {fileID: 4032477280573207962}
   - component: {fileID: 8385581545643182888}
   - component: {fileID: 3006136846360894401}
+  - component: {fileID: 5626396193288601323}
   m_Layer: 0
   m_Name: Brick
   m_TagString: Ground
@@ -2158,7 +2315,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -2186,7 +2343,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 5
@@ -2200,7 +2357,19 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 7
+--- !u!114 &5626396193288601323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4002078729993699765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2782d7beaa0e44903b39d260fab5f8e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UnlockSelfOnTrigger2D
 --- !u!1 &4027651465657552386
 GameObject:
   m_ObjectHideFlags: 0
@@ -2213,6 +2382,7 @@ GameObject:
   - component: {fileID: 2290580909411640150}
   - component: {fileID: 8520958935509660031}
   - component: {fileID: 5881646155046520946}
+  - component: {fileID: 281717626014328008}
   m_Layer: 0
   m_Name: Brick
   m_TagString: Ground
@@ -2323,7 +2493,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -2351,7 +2521,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 5
@@ -2365,7 +2535,19 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 7
+--- !u!114 &281717626014328008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4027651465657552386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2782d7beaa0e44903b39d260fab5f8e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UnlockSelfOnTrigger2D
 --- !u!1 &4473193266292822741
 GameObject:
   m_ObjectHideFlags: 0
@@ -2378,6 +2560,7 @@ GameObject:
   - component: {fileID: 942103241049875877}
   - component: {fileID: 5038642277089860936}
   - component: {fileID: 1269369008291353464}
+  - component: {fileID: 5790914770058889935}
   m_Layer: 0
   m_Name: Brick
   m_TagString: Ground
@@ -2488,7 +2671,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -2516,7 +2699,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 5
@@ -2530,7 +2713,19 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 7
+--- !u!114 &5790914770058889935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4473193266292822741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2782d7beaa0e44903b39d260fab5f8e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UnlockSelfOnTrigger2D
 --- !u!1 &5016730255295805254
 GameObject:
   m_ObjectHideFlags: 0
@@ -2543,6 +2738,7 @@ GameObject:
   - component: {fileID: 2729490182972910945}
   - component: {fileID: 7193005230008763668}
   - component: {fileID: 3439002399313855941}
+  - component: {fileID: 3589359712340536741}
   m_Layer: 0
   m_Name: Brick
   m_TagString: Ground
@@ -2653,7 +2849,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -2681,7 +2877,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 5
@@ -2695,7 +2891,19 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 7
+--- !u!114 &3589359712340536741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5016730255295805254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2782d7beaa0e44903b39d260fab5f8e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UnlockSelfOnTrigger2D
 --- !u!1 &5860697681446390580
 GameObject:
   m_ObjectHideFlags: 0
@@ -2708,6 +2916,7 @@ GameObject:
   - component: {fileID: 3890140058909452453}
   - component: {fileID: 5734450617437356111}
   - component: {fileID: 1377186025639360546}
+  - component: {fileID: 7303794718646747281}
   m_Layer: 0
   m_Name: Brick
   m_TagString: Ground
@@ -2818,7 +3027,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -2846,7 +3055,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 5
@@ -2860,7 +3069,19 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 7
+--- !u!114 &7303794718646747281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5860697681446390580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2782d7beaa0e44903b39d260fab5f8e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UnlockSelfOnTrigger2D
 --- !u!1 &5959597702941019591
 GameObject:
   m_ObjectHideFlags: 0
@@ -2873,6 +3094,7 @@ GameObject:
   - component: {fileID: 1799438496126088106}
   - component: {fileID: 8118892853749668236}
   - component: {fileID: 4183272541571761086}
+  - component: {fileID: 6111650705800889538}
   m_Layer: 0
   m_Name: Brick
   m_TagString: Ground
@@ -2983,7 +3205,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -3011,7 +3233,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 5
@@ -3025,7 +3247,19 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 7
+--- !u!114 &6111650705800889538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5959597702941019591}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2782d7beaa0e44903b39d260fab5f8e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UnlockSelfOnTrigger2D
 --- !u!1 &6534687329262815182
 GameObject:
   m_ObjectHideFlags: 0
@@ -3038,6 +3272,7 @@ GameObject:
   - component: {fileID: 6697606530913323840}
   - component: {fileID: 1344363503238753592}
   - component: {fileID: 746963649901712315}
+  - component: {fileID: 7560954304302567210}
   m_Layer: 0
   m_Name: Brick
   m_TagString: Ground
@@ -3148,7 +3383,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -3176,7 +3411,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 5
@@ -3190,7 +3425,19 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 7
+--- !u!114 &7560954304302567210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6534687329262815182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2782d7beaa0e44903b39d260fab5f8e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UnlockSelfOnTrigger2D
 --- !u!1 &6740561111634862255
 GameObject:
   m_ObjectHideFlags: 0
@@ -3203,6 +3450,7 @@ GameObject:
   - component: {fileID: 9193772287212358634}
   - component: {fileID: 3550924187905058217}
   - component: {fileID: 8469831244099315492}
+  - component: {fileID: 5981678771659037282}
   m_Layer: 0
   m_Name: Brick
   m_TagString: Ground
@@ -3313,7 +3561,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -3341,7 +3589,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 5
@@ -3355,7 +3603,19 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 7
+--- !u!114 &5981678771659037282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6740561111634862255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2782d7beaa0e44903b39d260fab5f8e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UnlockSelfOnTrigger2D
 --- !u!1 &6806147824438603293
 GameObject:
   m_ObjectHideFlags: 0
@@ -3368,6 +3628,7 @@ GameObject:
   - component: {fileID: 9040505959840499952}
   - component: {fileID: 4648997064654180746}
   - component: {fileID: 2814860418132731768}
+  - component: {fileID: 2309296460438667556}
   m_Layer: 0
   m_Name: Brick
   m_TagString: Ground
@@ -3478,7 +3739,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -3506,7 +3767,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 5
@@ -3520,7 +3781,19 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 7
+--- !u!114 &2309296460438667556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6806147824438603293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2782d7beaa0e44903b39d260fab5f8e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UnlockSelfOnTrigger2D
 --- !u!1 &6989084745956446920
 GameObject:
   m_ObjectHideFlags: 0
@@ -3533,6 +3806,7 @@ GameObject:
   - component: {fileID: 2944840501662120084}
   - component: {fileID: 7393589016898562524}
   - component: {fileID: 7932742624104977005}
+  - component: {fileID: 5033529044107402398}
   m_Layer: 0
   m_Name: Brick
   m_TagString: Ground
@@ -3643,7 +3917,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -3671,7 +3945,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 5
@@ -3685,7 +3959,19 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 7
+--- !u!114 &5033529044107402398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6989084745956446920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2782d7beaa0e44903b39d260fab5f8e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UnlockSelfOnTrigger2D
 --- !u!1 &7033537879841070359
 GameObject:
   m_ObjectHideFlags: 0
@@ -3698,6 +3984,7 @@ GameObject:
   - component: {fileID: 4023803144195100331}
   - component: {fileID: 1732188179099930859}
   - component: {fileID: 2839304434758877702}
+  - component: {fileID: 3302721702516323307}
   m_Layer: 0
   m_Name: Brick
   m_TagString: Ground
@@ -3808,7 +4095,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -3836,7 +4123,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 5
@@ -3850,7 +4137,19 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 7
+--- !u!114 &3302721702516323307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7033537879841070359}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2782d7beaa0e44903b39d260fab5f8e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UnlockSelfOnTrigger2D
 --- !u!1 &8403153123775569243
 GameObject:
   m_ObjectHideFlags: 0
@@ -3863,6 +4162,7 @@ GameObject:
   - component: {fileID: 940966779010832691}
   - component: {fileID: 2479696040688608138}
   - component: {fileID: 4772008415923857130}
+  - component: {fileID: 3952436402802017561}
   m_Layer: 0
   m_Name: Brick
   m_TagString: Ground
@@ -3973,7 +4273,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -4001,7 +4301,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 5
@@ -4015,7 +4315,19 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 7
+--- !u!114 &3952436402802017561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8403153123775569243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2782d7beaa0e44903b39d260fab5f8e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UnlockSelfOnTrigger2D
 --- !u!1 &9181687404582446804
 GameObject:
   m_ObjectHideFlags: 0
@@ -4028,6 +4340,7 @@ GameObject:
   - component: {fileID: 1732097022545512131}
   - component: {fileID: 78416605195806827}
   - component: {fileID: 8954345150691612781}
+  - component: {fileID: 8351860718234052347}
   m_Layer: 0
   m_Name: Brick
   m_TagString: Ground
@@ -4138,7 +4451,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -4166,7 +4479,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 5
@@ -4180,4 +4493,16 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 7
+--- !u!114 &8351860718234052347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9181687404582446804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2782d7beaa0e44903b39d260fab5f8e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UnlockSelfOnTrigger2D
